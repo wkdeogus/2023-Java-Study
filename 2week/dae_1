@@ -1,0 +1,16 @@
+package TwoWeek;
+
+public class wkdeogus {
+
+    String university;
+    String department;
+
+    String schoolYear;
+
+    public wkdeogus(String university, String department, String schoolYear){
+            ???.university = university;
+            ???.department = department;
+            ???.schoolYear = schoolYear;
+
+    }
+}
