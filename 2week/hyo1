@@ -1,0 +1,17 @@
+package TwoWeek;
+
+public class hyoexam1 {
+    public static void main(String[] args) {
+        hyoexam hyo = new hyoexam();
+
+        int result1 = hyo.plus(1,7);
+        System.out.println("result1 : " + result1);
+        int result2 = hyo.minus(9,5);
+        System.out.println("result2 : " + result2);
+        int result3 = hyo.multiplication(4,3);
+        System.out.println("result3 : " + result3);
+        double result4 = hyo.division(9,3);
+        System.out.println("result4 : " + result4);
+
+    }
+}
