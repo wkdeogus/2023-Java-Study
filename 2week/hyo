@@ -1,0 +1,22 @@
+package TwoWeek;
+
+public class hyoexam {
+    int plus(int a, int b) {
+        int result1 = a+b;
+        return result1;
+    }
+    int minus(int a, int b) {
+        int result2 = a-b;
+        return result2;
+    }
+
+    int multiplication(int a, int b) {
+        int result3 = a*b;
+        return result3;
+    }
+
+    double division(int a, int b) {
+        double result4 = (double) a/ (double) b;
+        return result4;
+    }
+}
