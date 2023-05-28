@@ -1,3 +1,6 @@
+/* 부모클래스를 오버라이딩한후 메소드를 호출하여 원하는 출력값이 나오도록 하시오*/
+
+
 package Threeweek;
 
 public class Car {
