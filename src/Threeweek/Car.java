@@ -1,6 +1,6 @@
 package Threeweek;
 
-public abstract class Car {
+public class Car {
 
     public void startCar() {
         System.out.println("시동을 겁니다.");
