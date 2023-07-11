@@ -1,0 +1,31 @@
+/* 자료 1 */
+public interface AB {
+	default void dM1() {
+		System.out.println("dM1 종속코드");
+		dC();
+	}
+	
+	default void dM2() {
+		System.out,println("dM2 종속코드");
+		dC();
+	}
+	
+	private void dC() {
+		System.out.println("dM 중복코드A");
+		System.out.println("dM 중복코드B");
+	}
+	
+	ststic void sM1() {
+		System.out.println("sM1 종속코드");
+		sC();
+	}
+	static void sM2() {
+		System.out.println("sM2 종속코드");
+		sC();
+	}
+	
+	private static  void static sC() {
+		System.out.println("sM 중복코드C");
+		System.out.println("sM 중복코드D");
+	}
+}

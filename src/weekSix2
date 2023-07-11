@@ -1,0 +1,5 @@
+package weekSix
+
+public class SI implements AB {
+	
+}
